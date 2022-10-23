@@ -17,7 +17,7 @@
 
 ## Требования
 ### На 4
-- Решение 
+- Решение на языке С: [main.c](./main.c)
 - Компиляция без отладочных опций: `gcc -O0 -masm=intel ./main.c -S -o ./main.s`
 - Компиляция в cool_main.asm: `gcc -O0 -masm=intel -Wall -fno-asynchronous-unwind-tables -fcf-protection=none -S ./main.c -o ./cool_main.s`
 - Итоговый отредактированный файл: [cool_main.s](./cool_main.s)
